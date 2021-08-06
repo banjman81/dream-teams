@@ -30,14 +30,14 @@ body{
     padding: 10px;
 }
 .nav2-logo{
-    height: 100px;
+    height: 75px;
     background-color: black;
-    padding: 10px;
+    padding: 5px;
     border-radius: 50%;
     border: 2px solid #69428d;
     transform: scale(1.5);
     position: relative;
-    top: -125%;
+    top: -115%;
     transition: .3s;
 }
 .nav2-logo:hover{
@@ -98,9 +98,14 @@ li.right-of-synd {
 .normal-li{
     width: 22%;
 }
-
-@media screen and (max-width: 600px) {
-    /* .nav2-logo{
+.head-mobile{
+    display: none;
+}
+.hidden{
+    display: none;
+}
+@media screen and (max-width: 800px) {
+    .nav2-logo{
         height: 50px;
         top: -100%;
         padding: 3px;
@@ -116,10 +121,17 @@ li.right-of-synd {
     }
     li.right-of-synd {
         padding-left: 40px;
-    } */
+    }
     .head{
         display: none;
     }
+    .counter-bg{
+        display: none;
+    }
+    .content-body{
+        padding-top: 20%;
+    }
 }
+
 
 
